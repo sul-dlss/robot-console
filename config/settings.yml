@@ -1,0 +1,5 @@
+redis:
+  hostname: localhost
+  port: 6379
+  db: 0
+  namespace: 'resque:development'
