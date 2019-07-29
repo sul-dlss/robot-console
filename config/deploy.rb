@@ -4,7 +4,7 @@ lock '~> 3.11.0'
 set :application, 'robot-console'
 set :repo_url, 'https://github.com/sul-dlss/robot-console.git'
 # Default branch is :master
-# ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
+ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/opt/app/robot-console/robot-console'
