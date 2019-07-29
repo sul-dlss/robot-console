@@ -67,6 +67,7 @@ GEM
       dry-equalizer (~> 0.2)
       dry-logic (~> 0.5, >= 0.5.0)
       dry-types (~> 0.14.0)
+    honeybadger (4.4.0)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.2)
@@ -126,6 +127,7 @@ DEPENDENCIES
   capistrano-passenger
   config (~> 1.7)
   dlss-capistrano
+  honeybadger
   resque (~> 2.0)
   rubocop
 
