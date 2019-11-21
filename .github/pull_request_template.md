@@ -2,4 +2,4 @@
 
 
 
-## Was the usage documentation (e.g. wiki, README, queue or DB specific README) updated?
+## Was the usage documentation (e.g. wiki, README) updated?
