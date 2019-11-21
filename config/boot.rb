@@ -33,3 +33,6 @@ redis = Redis.new(host: Settings.redis.hostname,
                   db: Settings.redis.db)
 
 Resque.redis = Redis::Namespace.new(Settings.redis.namespace, redis: redis)
+
+# configure a separate failure queue per job queue
+Resque::Failure.backend = Resque::Failure::RedisMultiQueue
