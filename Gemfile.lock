@@ -40,7 +40,7 @@ GEM
       capistrano-bundle_audit (>= 0.1.0)
       capistrano-one_time_key
       capistrano-shared_configs
-    dry-configurable (0.11.4)
+    dry-configurable (0.11.5)
       concurrent-ruby (~> 1.0)
       dry-core (~> 0.4, >= 0.4.7)
       dry-equalizer (~> 0.2)
