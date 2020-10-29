@@ -35,7 +35,7 @@ GEM
       deep_merge (~> 1.2, >= 1.2.1)
       dry-validation (~> 0.12, >= 0.12.2, < 1.0.0)
     deep_merge (1.2.1)
-    dlss-capistrano (3.9.0)
+    dlss-capistrano (3.10.1)
       capistrano (~> 3.0)
       capistrano-bundle_audit (>= 0.3.0)
       capistrano-one_time_key
@@ -108,7 +108,7 @@ GEM
       rubocop-ast (>= 0.6.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 2.0)
-    rubocop-ast (1.0.1)
+    rubocop-ast (1.1.0)
       parser (>= 2.7.1.5)
     ruby-progressbar (1.10.1)
     ruby2_keywords (0.0.2)
