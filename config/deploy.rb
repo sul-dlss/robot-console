@@ -3,7 +3,7 @@
 
 set :application, 'robot-console'
 set :repo_url, 'https://github.com/sul-dlss/robot-console.git'
-# Default branch is :master
+# Default branch is :main
 ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
