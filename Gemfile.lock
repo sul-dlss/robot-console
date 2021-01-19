@@ -110,13 +110,13 @@ GEM
     rubocop-ast (1.4.0)
       parser (>= 2.7.1.5)
     ruby-progressbar (1.11.0)
-    ruby2_keywords (0.0.2)
+    ruby2_keywords (0.0.4)
     sinatra (2.1.0)
       mustermann (~> 1.0)
       rack (~> 2.2)
       rack-protection (= 2.1.0)
       tilt (~> 2.0)
-    sshkit (1.21.1)
+    sshkit (1.21.2)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
     thor (1.0.1)
@@ -141,4 +141,4 @@ DEPENDENCIES
   rubocop
 
 BUNDLED WITH
-   2.2.4
+   2.2.6
