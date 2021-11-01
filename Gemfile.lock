@@ -98,7 +98,7 @@ GEM
       sinatra (>= 0.9.2)
       vegas (~> 0.1.2)
     rexml (3.2.5)
-    rubocop (1.22.2)
+    rubocop (1.22.3)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
