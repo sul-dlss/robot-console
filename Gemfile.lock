@@ -1,12 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.1.4.1)
+    activesupport (7.0.0)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-      zeitwerk (~> 2.3)
     airbrussh (1.4.0)
       sshkit (>= 1.6.1, != 1.7.0)
     ast (2.4.2)
@@ -71,7 +70,7 @@ GEM
     honeybadger (4.9.0)
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
-    minitest (5.14.4)
+    minitest (5.15.0)
     mono_logger (1.1.1)
     multi_json (1.15.0)
     mustermann (1.1.1)
@@ -126,7 +125,6 @@ GEM
     unicode-display_width (2.1.0)
     vegas (0.1.11)
       rack (>= 1.0.0)
-    zeitwerk (2.5.1)
 
 PLATFORMS
   ruby
