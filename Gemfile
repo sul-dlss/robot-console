@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'config', '~> 1.7'
+gem 'config'
 gem 'resque', '~> 2.0'
 gem 'honeybadger'
 
