@@ -83,7 +83,7 @@ GEM
       rack
     rainbow (3.1.1)
     rake (13.0.6)
-    redis (4.5.1)
+    redis (4.6.0)
     redis-namespace (1.8.1)
       redis (>= 3.0.4)
     regexp_parser (2.2.0)
@@ -94,7 +94,7 @@ GEM
       sinatra (>= 0.9.2)
       vegas (~> 0.1.2)
     rexml (3.2.5)
-    rubocop (1.25.0)
+    rubocop (1.25.1)
       parallel (~> 1.10)
       parser (>= 3.1.0.0)
       rainbow (>= 2.2.2, < 4.0)
