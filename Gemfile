@@ -13,5 +13,6 @@ end
 
 group :development do
   gem 'capistrano-passenger', require: false
+  gem 'capistrano-rvm', require: false
   gem 'dlss-capistrano', require: false
 end
