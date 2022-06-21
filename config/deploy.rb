@@ -38,3 +38,6 @@ set :deploy_to, '/opt/app/robot-console/robot-console'
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
+
+# honeybadger_env otherwise defaults to rails_env
+set :honeybadger_env, fetch(:stage)
