@@ -36,7 +36,7 @@ GEM
     dry-configurable (0.15.0)
       concurrent-ruby (~> 1.0)
       dry-core (~> 0.6)
-    dry-container (0.10.1)
+    dry-container (0.11.0)
       concurrent-ruby (~> 1.0)
     dry-core (0.8.1)
       concurrent-ruby (~> 1.0)
@@ -45,12 +45,12 @@ GEM
     dry-logic (1.2.0)
       concurrent-ruby (~> 1.0)
       dry-core (~> 0.5, >= 0.5)
-    dry-schema (1.10.2)
+    dry-schema (1.10.4)
       concurrent-ruby (~> 1.0)
       dry-configurable (~> 0.13, >= 0.13.0)
       dry-core (~> 0.5, >= 0.5)
       dry-initializer (~> 3.0)
-      dry-logic (~> 1.0)
+      dry-logic (~> 1.2)
       dry-types (~> 1.5)
     dry-types (1.5.1)
       concurrent-ruby (~> 1.0)
@@ -117,7 +117,7 @@ GEM
       net-ssh (>= 2.8.0)
     thor (1.2.1)
     tilt (2.0.11)
-    unicode-display_width (2.2.0)
+    unicode-display_width (2.3.0)
 
 PLATFORMS
   ruby
