@@ -33,7 +33,7 @@ GEM
       capistrano-bundle_audit (>= 0.3.0)
       capistrano-one_time_key
       capistrano-shared_configs
-    dry-configurable (1.0.0)
+    dry-configurable (1.0.1)
       dry-core (~> 1.0, < 2)
       zeitwerk (~> 2.6)
     dry-core (1.0.0)
@@ -87,7 +87,7 @@ GEM
     redis (4.8.0)
     redis-namespace (1.9.0)
       redis (>= 4)
-    regexp_parser (2.6.0)
+    regexp_parser (2.6.1)
     resque (2.4.0)
       mono_logger (~> 1.0)
       multi_json (~> 1.0)
