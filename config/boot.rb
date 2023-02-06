@@ -21,15 +21,10 @@ Config.setup do |config|
   config.env_separator = '__'
 end
 
-puts File.expand_path(__dir__)
 Config.load_and_set_settings(
   Config.setting_files(File.expand_path(__dir__), 'production')
 )
 
-# Load Resque configuration and controller
-redis = Redis.new(host: Settings.redis.hostname,
-                  port: Settings.redis.port,
-                  thread_safe: true,
-                  db: Settings.redis.db)
-
-Resque.redis = Redis::Namespace.new(Settings.redis.namespace, redis: redis)
+Sidekiq.configure_client do |config|
+  config.redis = { url: "redis://#{Settings.redis.hostname}:#{Settings.redis.port}/" }
+end
