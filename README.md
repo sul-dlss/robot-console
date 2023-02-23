@@ -1,9 +1,6 @@
 # robot-console
 
-This runs the [resque web console](https://github.com/resque/resque#the-front-end) to show the status of the robots.
-
-## Background
-The resque web console was previously run by [robot-master](https://github.com/sul-dlss/robot-master). As part of retiring robot-master, running the resque web console has been moved to this application.
+This runs the [sidekiq web console](https://github.com/mperham/sidekiq/wiki/Monitoring) to show the status of the robots.
 
 ## Running the app
 
@@ -24,5 +21,5 @@ SETTINGS__REDIS__HOSTNAME=redis.school.edu
 This project will work on any rack compatible server. Just point it at the
 `config.ru` file. For example:
 ```
-puma --config config.ru
+bundle exec puma
 ```
