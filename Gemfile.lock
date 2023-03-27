@@ -1,8 +1,8 @@
 GEM
   remote: https://gems.contribsys.com/
   specs:
-    sidekiq-pro (5.5.8)
-      sidekiq (~> 6.0, >= 6.5.6)
+    sidekiq-pro (7.0.8)
+      sidekiq (>= 7.0.0, < 8)
 
 GEM
   remote: https://rubygems.org/
@@ -85,10 +85,13 @@ GEM
       ast (~> 2.4.1)
     puma (6.1.1)
       nio4r (~> 2.0)
-    rack (2.2.6.4)
+    rack (3.0.7)
+    rack-session (2.0.0)
+      rack (>= 3.0.0)
     rainbow (3.1.1)
     rake (13.0.6)
-    redis (4.8.1)
+    redis-client (0.14.0)
+      connection_pool
     regexp_parser (2.7.0)
     rexml (3.2.5)
     rubocop (1.48.1)
@@ -104,10 +107,11 @@ GEM
     rubocop-ast (1.28.0)
       parser (>= 3.2.1.0)
     ruby-progressbar (1.13.0)
-    sidekiq (6.5.8)
-      connection_pool (>= 2.2.5, < 3)
-      rack (~> 2.0)
-      redis (>= 4.5.0, < 5)
+    sidekiq (7.0.7)
+      concurrent-ruby (< 2)
+      connection_pool (>= 2.3.0)
+      rack (>= 2.2.4)
+      redis-client (>= 0.11.0)
     sshkit (1.21.4)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
@@ -125,8 +129,9 @@ DEPENDENCIES
   dlss-capistrano
   honeybadger
   puma
+  rack-session
   rubocop
-  sidekiq (~> 6.4)
+  sidekiq (~> 7.0)
   sidekiq-pro!
 
 BUNDLED WITH
