@@ -4,8 +4,9 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'config'
-gem 'sidekiq', '~> 6.4'
+gem 'sidekiq', '~> 7.0'
 gem 'honeybadger'
+gem 'rack-session'
 
 source 'https://gems.contribsys.com/' do
   gem 'sidekiq-pro'
