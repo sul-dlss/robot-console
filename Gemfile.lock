@@ -40,7 +40,7 @@ GEM
       capistrano-bundle_audit (>= 0.3.0)
       capistrano-one_time_key
       capistrano-shared_configs
-    dry-configurable (1.0.1)
+    dry-configurable (1.1.0)
       dry-core (~> 1.0, < 2)
       zeitwerk (~> 2.6)
     dry-core (1.0.0)
@@ -97,7 +97,7 @@ GEM
       connection_pool
     regexp_parser (2.8.1)
     rexml (3.2.5)
-    rubocop (1.54.1)
+    rubocop (1.54.2)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
