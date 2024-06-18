@@ -37,7 +37,7 @@ GEM
       deep_merge (~> 1.2, >= 1.2.1)
     connection_pool (2.4.1)
     deep_merge (1.2.2)
-    dlss-capistrano (5.1.0)
+    dlss-capistrano (5.1.1)
       bcrypt_pbkdf
       capistrano (~> 3.0)
       capistrano-bundle_audit (>= 0.3.0)
