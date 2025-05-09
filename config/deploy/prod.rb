@@ -6,7 +6,6 @@
 # You can define all roles on a single server, or split them:
 
 server 'robot-console-prod.stanford.edu', user: 'robot-console', roles: %w[app]
-Capistrano::OneTimeKey.generate_one_time_key!
 
 # role-based syntax
 # ==================

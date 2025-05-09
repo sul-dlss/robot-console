@@ -6,7 +6,6 @@
 # You can define all roles on a single server, or split them:
 
 server 'robot-console-stage.stanford.edu', user: 'robot-console', roles: %w[app]
-Capistrano::OneTimeKey.generate_one_time_key!
 
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
