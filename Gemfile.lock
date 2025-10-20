@@ -45,7 +45,7 @@ GEM
       capistrano-shared_configs
       ed25519
     ed25519 (1.4.0)
-    honeybadger (6.1.1)
+    honeybadger (6.1.2)
       logger
       ostruct
     i18n (1.14.7)
@@ -65,8 +65,8 @@ GEM
     parser (3.3.9.0)
       ast (~> 2.4.1)
       racc
-    prism (1.5.2)
-    puma (7.0.4)
+    prism (1.6.0)
+    puma (7.1.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.2.3)
