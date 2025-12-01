@@ -19,5 +19,6 @@ end
 group :development do
   gem 'capistrano-passenger', require: false
   gem 'dlss-capistrano', require: false
+  gem 'capistrano-bundler'
   gem 'puma'
 end
