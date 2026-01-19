@@ -54,10 +54,10 @@ GEM
     nio4r (2.7.5)
     ostruct (0.6.3)
     parallel (1.27.0)
-    parser (3.3.10.0)
+    parser (3.3.10.1)
       ast (~> 2.4.1)
       racc
-    prism (1.7.0)
+    prism (1.8.0)
     puma (7.1.0)
       nio4r (~> 2.0)
     racc (1.8.1)
@@ -119,4 +119,4 @@ DEPENDENCIES
   sidekiq-pro!
 
 BUNDLED WITH
-  4.0.3
+  4.0.4
