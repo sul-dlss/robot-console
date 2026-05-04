@@ -42,7 +42,7 @@ GEM
       ostruct
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
-    json (2.19.4)
+    json (2.19.5)
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
     logger (1.7.0)
@@ -119,4 +119,4 @@ DEPENDENCIES
   sidekiq-pro!
 
 BUNDLED WITH
-  4.0.10
+  4.0.11
