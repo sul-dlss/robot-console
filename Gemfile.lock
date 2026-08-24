@@ -85,7 +85,7 @@ GEM
       parser (>= 3.3.7.2)
       prism (~> 1.7)
     ruby-progressbar (1.13.0)
-    sidekiq (8.1.6)
+    sidekiq (8.1.7)
       connection_pool (>= 3.0.0)
       json (>= 2.16.0)
       logger (>= 1.7.0)
@@ -119,4 +119,4 @@ DEPENDENCIES
   sidekiq-pro!
 
 BUNDLED WITH
-  4.0.18
+  4.0.19
