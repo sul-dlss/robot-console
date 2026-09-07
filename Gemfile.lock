@@ -1,7 +1,7 @@
 GEM
   remote: https://gems.contribsys.com/
   specs:
-    sidekiq-pro (8.1.5)
+    sidekiq-pro (8.1.6)
       sidekiq (>= 8.1.0, < 9)
 
 GEM
@@ -42,7 +42,7 @@ GEM
       ostruct
     i18n (1.15.2)
       concurrent-ruby (~> 1.0)
-    json (2.21.2)
+    json (3.0.0)
     language_server-protocol (3.17.0.6)
     lint_roller (1.1.0)
     logger (1.7.0)
@@ -53,7 +53,7 @@ GEM
     net-ssh (7.3.3)
     nio4r (2.7.5)
     ostruct (0.6.3)
-    parallel (2.1.0)
+    parallel (2.2.0)
     parser (3.3.12.0)
       ast (~> 2.4.1)
       racc
@@ -119,4 +119,4 @@ DEPENDENCIES
   sidekiq-pro!
 
 BUNDLED WITH
-  4.0.19
+  4.0.20
