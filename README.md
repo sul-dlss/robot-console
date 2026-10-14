@@ -4,6 +4,8 @@ This runs the [sidekiq web console](https://github.com/mperham/sidekiq/wiki/Moni
 
 ## Running the app
 
+Use Ruby 4.0.7 for development and testing.
+
 ### Install dependencies
 ```
 bundle install
