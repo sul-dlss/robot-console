@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem 'config'
 gem 'honeybadger'
 gem 'rack-session'
-gem 'sidekiq', '~> 8.0'
+gem 'sidekiq'
 
 source 'https://gems.contribsys.com/' do
   gem 'sidekiq-pro'
@@ -17,8 +17,8 @@ group :development, :test do
 end
 
 group :development do
+  gem 'capistrano-bundler'
   gem 'capistrano-passenger', require: false
   gem 'dlss-capistrano', require: false
-  gem 'capistrano-bundler'
   gem 'puma'
 end
